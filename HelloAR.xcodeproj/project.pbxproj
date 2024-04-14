@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2D635A5C2BBAED0E0028FD99 /* MeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A5B2BBAED0E0028FD99 /* MeasurementViewController.swift */; };
+		2D635A5F2BC4D0BF0028FD99 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 2D635A5E2BC4D0BF0028FD99 /* car.dae */; };
+		2D635A612BC4D0F20028FD99 /* RemoteCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A602BC4D0F20028FD99 /* RemoteCarViewController.swift */; };
+		2D635A642BC6C6B50028FD99 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A632BC6C6B50028FD99 /* OverlayPlane.swift */; };
+		2D635A822BCBBE6B0028FD99 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A812BCBBE6B0028FD99 /* GameButton.swift */; };
 		2DBA55302BA5AA9400B803DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA552F2BA5AA9400B803DC /* AppDelegate.swift */; };
 		2DBA55372BA5AA9400B803DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA55352BA5AA9400B803DC /* Main.storyboard */; };
 		2DBA55392BA5AA9500B803DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA55382BA5AA9500B803DC /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		2D635A5B2BBAED0E0028FD99 /* MeasurementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewController.swift; sourceTree = "<group>"; };
+		2D635A5E2BC4D0BF0028FD99 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
+		2D635A602BC4D0F20028FD99 /* RemoteCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCarViewController.swift; sourceTree = "<group>"; };
+		2D635A632BC6C6B50028FD99 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		2D635A812BCBBE6B0028FD99 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
 		2DBA552C2BA5AA9400B803DC /* HelloAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBA552F2BA5AA9400B803DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DBA55362BA5AA9400B803DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D635A5D2BC4D0AE0028FD99 /* RemoteCar */ = {
+			isa = PBXGroup;
+			children = (
+				2D635A5E2BC4D0BF0028FD99 /* car.dae */,
+				2D635A602BC4D0F20028FD99 /* RemoteCarViewController.swift */,
+				2D635A812BCBBE6B0028FD99 /* GameButton.swift */,
+			);
+			path = RemoteCar;
+			sourceTree = "<group>";
+		};
 		2DBA55232BA5AA9400B803DC = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +73,14 @@
 		2DBA552E2BA5AA9400B803DC /* HelloAR */ = {
 			isa = PBXGroup;
 			children = (
+				2D635A5D2BC4D0AE0028FD99 /* RemoteCar */,
 				2DBA552F2BA5AA9400B803DC /* AppDelegate.swift */,
 				2DD0C2492BA9C57100E11E4A /* TargetAppViewController.swift */,
 				2D635A5B2BBAED0E0028FD99 /* MeasurementViewController.swift */,
 				2DBA55352BA5AA9400B803DC /* Main.storyboard */,
 				2DBA55382BA5AA9500B803DC /* Assets.xcassets */,
 				2DBA553A2BA5AA9500B803DC /* LaunchScreen.storyboard */,
+				2D635A632BC6C6B50028FD99 /* OverlayPlane.swift */,
 			);
 			path = HelloAR;
 			sourceTree = "<group>";
@@ -124,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DBA553C2BA5AA9500B803DC /* LaunchScreen.storyboard in Resources */,
+				2D635A5F2BC4D0BF0028FD99 /* car.dae in Resources */,
 				2DBA55392BA5AA9500B803DC /* Assets.xcassets in Resources */,
 				2DBA55372BA5AA9400B803DC /* Main.storyboard in Resources */,
 			);
@@ -137,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DBA55302BA5AA9400B803DC /* AppDelegate.swift in Sources */,
+				2D635A822BCBBE6B0028FD99 /* GameButton.swift in Sources */,
+				2D635A612BC4D0F20028FD99 /* RemoteCarViewController.swift in Sources */,
 				2DD0C24A2BA9C57100E11E4A /* TargetAppViewController.swift in Sources */,
 				2D635A5C2BBAED0E0028FD99 /* MeasurementViewController.swift in Sources */,
+				2D635A642BC6C6B50028FD99 /* OverlayPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
