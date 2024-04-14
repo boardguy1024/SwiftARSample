@@ -12,6 +12,7 @@
 		2D635A612BC4D0F20028FD99 /* RemoteCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A602BC4D0F20028FD99 /* RemoteCarViewController.swift */; };
 		2D635A642BC6C6B50028FD99 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A632BC6C6B50028FD99 /* OverlayPlane.swift */; };
 		2D635A822BCBBE6B0028FD99 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A812BCBBE6B0028FD99 /* GameButton.swift */; };
+		2D635A842BCBCDBB0028FD99 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635A832BCBCDBB0028FD99 /* Car.swift */; };
 		2DBA55302BA5AA9400B803DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA552F2BA5AA9400B803DC /* AppDelegate.swift */; };
 		2DBA55372BA5AA9400B803DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA55352BA5AA9400B803DC /* Main.storyboard */; };
 		2DBA55392BA5AA9500B803DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA55382BA5AA9500B803DC /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		2D635A602BC4D0F20028FD99 /* RemoteCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCarViewController.swift; sourceTree = "<group>"; };
 		2D635A632BC6C6B50028FD99 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
 		2D635A812BCBBE6B0028FD99 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
+		2D635A832BCBCDBB0028FD99 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		2DBA552C2BA5AA9400B803DC /* HelloAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBA552F2BA5AA9400B803DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DBA55362BA5AA9400B803DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				2D635A5E2BC4D0BF0028FD99 /* car.dae */,
+				2D635A832BCBCDBB0028FD99 /* Car.swift */,
 				2D635A602BC4D0F20028FD99 /* RemoteCarViewController.swift */,
 				2D635A812BCBBE6B0028FD99 /* GameButton.swift */,
 			);
@@ -162,6 +165,7 @@
 				2D635A612BC4D0F20028FD99 /* RemoteCarViewController.swift in Sources */,
 				2DD0C24A2BA9C57100E11E4A /* TargetAppViewController.swift in Sources */,
 				2D635A5C2BBAED0E0028FD99 /* MeasurementViewController.swift in Sources */,
+				2D635A842BCBCDBB0028FD99 /* Car.swift in Sources */,
 				2D635A642BC6C6B50028FD99 /* OverlayPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

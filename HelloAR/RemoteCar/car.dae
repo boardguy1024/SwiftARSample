@@ -4,8 +4,8 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2024-04-14T08:02:46Z</created>
-  <modified>2024-04-14T08:02:46Z</modified>
+  <created>2024-04-14T09:17:30Z</created>
+  <modified>2024-04-14T09:17:30Z</modified>
   <unit meter="1.000000"/>
   <up_axis>Y_UP</up_axis>
  </asset>
@@ -650,32 +650,29 @@
  </library_geometries>
  <library_visual_scenes>
   <visual_scene id="scene19">
-   <node id="car" name="car">
-    <matrix>-0.9999996 -8.742277e-08 -3.552713e-15 0 -3.552713e-15 1.788139e-07 -0.9999998 0 8.742277e-08 -0.9999998 5.960464e-08 0 0 0 0 1 </matrix>
-    <node id="model" name="car1">
-     <matrix>-0.3959507 -0.9180136 0.02297785 0 0.9164719 -0.3966167 -0.05318483 0 0.05793786 -1.303886e-08 0.9983194 0 0 0 0 1 </matrix>
-     <instance_geometry url="#geometry1">
-      <bind_material>
-       <technique_common>
-        <instance_material symbol="geometryElement4" target="#mat19-material"/>
-        <instance_material symbol="geometryElement5" target="#mat14-material"/>
-        <instance_material symbol="geometryElement6" target="#mat17-material"/>
-        <instance_material symbol="geometryElement7" target="#mat12-material"/>
-        <instance_material symbol="geometryElement8" target="#mat13-material"/>
-        <instance_material symbol="geometryElement9" target="#mat24-material"/>
-        <instance_material symbol="geometryElement10" target="#mat22-material"/>
-        <instance_material symbol="geometryElement11" target="#mat16-material"/>
-        <instance_material symbol="geometryElement12" target="#mat21-material"/>
-        <instance_material symbol="geometryElement13" target="#mat20-material"/>
-        <instance_material symbol="geometryElement14" target="#mat8-material"/>
-        <instance_material symbol="geometryElement15" target="#mat2-material"/>
-        <instance_material symbol="geometryElement16" target="#mat25-material"/>
-        <instance_material symbol="geometryElement17" target="#mat6-material"/>
-        <instance_material symbol="geometryElement18" target="#mat23-material"/>
-       </technique_common>
-      </bind_material>
-     </instance_geometry>
-    </node>
+   <node id="model" name="car">
+    <matrix>-0.385828 -0.9222393 0.02617398 0 -0.0481034 -0.008224742 -0.9987984 0 0.9213464 -0.3866311 -0.04118656 0 0 0 0 1 </matrix>
+    <instance_geometry url="#geometry1">
+     <bind_material>
+      <technique_common>
+       <instance_material symbol="geometryElement4" target="#mat19-material"/>
+       <instance_material symbol="geometryElement5" target="#mat14-material"/>
+       <instance_material symbol="geometryElement6" target="#mat17-material"/>
+       <instance_material symbol="geometryElement7" target="#mat12-material"/>
+       <instance_material symbol="geometryElement8" target="#mat13-material"/>
+       <instance_material symbol="geometryElement9" target="#mat24-material"/>
+       <instance_material symbol="geometryElement10" target="#mat22-material"/>
+       <instance_material symbol="geometryElement11" target="#mat16-material"/>
+       <instance_material symbol="geometryElement12" target="#mat21-material"/>
+       <instance_material symbol="geometryElement13" target="#mat20-material"/>
+       <instance_material symbol="geometryElement14" target="#mat8-material"/>
+       <instance_material symbol="geometryElement15" target="#mat2-material"/>
+       <instance_material symbol="geometryElement16" target="#mat25-material"/>
+       <instance_material symbol="geometryElement17" target="#mat6-material"/>
+       <instance_material symbol="geometryElement18" target="#mat23-material"/>
+      </technique_common>
+     </bind_material>
+    </instance_geometry>
    </node>
   </visual_scene>
  </library_visual_scenes>
